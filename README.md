@@ -89,31 +89,28 @@ mvn javadoc:javadoc
 - `onePath(V v1, V v2)`: O(V + E) donde V es el número de vértices y E es el número de aristas
 
 ## 📝 Estructura del Proyecto
-
-```
+````
 .
+├── 📁 .idea/
+├── 📄 .gitignore
+├── 📄 misc.xml
+├── 📄 modules.xml
+├── 📄 uiDesigner.xml
 ├── 📁 src/
-│   ├── 📁 main/
-│   │   ├── 📁 java/
-│   │   │   ├── 📁 aplicacion/
-│   │   │   │   └── 📄 Principal.java
-│   │   │   ├── 📁 dominio/ (Práctica 2)
-│   │   │   │   └── 📄 Tablero.java
-│   │   │   ├── 📁 mates/ (Práctica 1)
-│   │   │   │   └── 📄 Matematicas.java
-│   │   │   └── 📁 pr2/ (Práctica 3)
-│   │   │       └── 📄 Graph.java
-│   │   └── 📁 resources/
-│   │       └── 📄 matriz
-│   └── 📁 test/
-│       └── 📁 java/
-│           └── 📁 pr2/
-│               └── 📄 GraphTest.java
-├── 📄 pom.xml
-├── 📄 makefile
-├── 📄 README.md
-└── 📄 .gitignore
-```
+│   ├── 📁 aplicacion/
+│   │   └── 📄 Principal.java
+│   ├── 📁 dominio/
+│   │   └── 📄 Tablero.java
+│   ├── 📁 mates/
+│   │   └── 📄 Matematicas.java
+│   └── 📁 pr2/
+│       ├── 📄 Graph.java
+│       └── 📄 Principal.java
+├── 📄 .gitignore
+├── 📄 LICENSE
+├── 📄 Primera_Prueba_Evaluacion_Con...
+└── 📄 README.md
+````
 
 ## 🔍 Ejemplos
 
@@ -144,7 +141,7 @@ List<Integer> path = g.onePath(1, 4); // Devuelve [1, 5, 6, 4]
 
 ## 📜 Licencia
 ```
-Copyright 2025 [Tu nombre]
+Copyright 2025 Mario Blanco Heranz
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -160,7 +157,8 @@ limitations under the License.
 ```
 
 ## 👨‍💻 Autor
-Desarrollado con ❤️ por [Tu Nombre]
+
+Desarrollado con ❤️ por Mario Blanco Herranz
 
 ## 🙏 Agradecimientos
 - 👨‍🏫 Al profesor por el material didáctico
